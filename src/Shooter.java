@@ -33,19 +33,15 @@ public class Shooter extends Thread {
         while(GlazMain.Gui.running) {
             if (((updateArea.hsb[0] > minHUE1) && (updateArea.hsb[0] < maxHUE1) && (updateArea.hsb[1] > minSAT1) &&(updateArea.hsb[1] < maxSAT1) && (updateArea.hsb[2] > minBRI1) &&(updateArea.hsb[2] < maxBRI1)) || ((updateArea.hsb[0] > minHUE2) && (updateArea.hsb[0] < maxHUE2) && (updateArea.hsb[1] > minSAT2) &&(updateArea.hsb[1] < maxSAT2) && (updateArea.hsb[2] > minBRI2) &&(updateArea.hsb[2] < maxBRI2)|| ((updateArea.hsb[0] > minHUE3) && (updateArea.hsb[0] < maxHUE3) && (updateArea.hsb[1] > minSAT3) &&(updateArea.hsb[1] < maxSAT3) && (updateArea.hsb[2] > minBRI3) &&(updateArea.hsb[2] < maxBRI3)))){
                 mouse.mouseClick();
-                System.out.print("\n Shooting!");
             }
             if (((updateArea.hsb2[0] > minHUE1) && (updateArea.hsb2[0] < maxHUE1) && (updateArea.hsb2[1] > minSAT1) &&(updateArea.hsb2[1] < maxSAT1) && (updateArea.hsb2[2] > minBRI1) &&(updateArea.hsb2[2] < maxBRI1)) || ((updateArea.hsb2[0] > minHUE2) && (updateArea.hsb2[0] < maxHUE2) && (updateArea.hsb2[1] > minSAT2) &&(updateArea.hsb2[1] < maxSAT2) && (updateArea.hsb2[2] > minBRI2) &&(updateArea.hsb2[2] < maxBRI2)|| ((updateArea.hsb2[0] > minHUE3) && (updateArea.hsb2[0] < maxHUE3) && (updateArea.hsb2[1] > minSAT3) &&(updateArea.hsb2[1] < maxSAT3) && (updateArea.hsb2[2] > minBRI3) &&(updateArea.hsb2[2] < maxBRI3)))){
                 mouse.mouseClick();
-                System.out.print("\n Shooting!");
             }
             if (((updateArea.hsb3[0] > minHUE1) && (updateArea.hsb3[0] < maxHUE1) && (updateArea.hsb3[1] > minSAT1) &&(updateArea.hsb3[1] < maxSAT1) && (updateArea.hsb3[2] > minBRI1) &&(updateArea.hsb3[2] < maxBRI1)) || ((updateArea.hsb3[0] > minHUE2) && (updateArea.hsb3[0] < maxHUE2) && (updateArea.hsb3[1] > minSAT2) &&(updateArea.hsb3[1] < maxSAT2) && (updateArea.hsb3[2] > minBRI2) &&(updateArea.hsb3[2] < maxBRI2)|| ((updateArea.hsb3[0] > minHUE3) && (updateArea.hsb3[0] < maxHUE3) && (updateArea.hsb3[1] > minSAT3) &&(updateArea.hsb3[1] < maxSAT3) && (updateArea.hsb3[2] > minBRI3) &&(updateArea.hsb3[2] < maxBRI3)))){
                 mouse.mouseClick();
-                System.out.print("\n Shooting!");
             }
             if (((updateArea.hsb4[0] > minHUE1) && (updateArea.hsb4[0] < maxHUE1) && (updateArea.hsb4[1] > minSAT1) &&(updateArea.hsb4[1] < maxSAT1) && (updateArea.hsb4[2] > minBRI1) &&(updateArea.hsb4[2] < maxBRI1)) || ((updateArea.hsb4[0] > minHUE2) && (updateArea.hsb4[0] < maxHUE2) && (updateArea.hsb4[1] > minSAT2) &&(updateArea.hsb4[1] < maxSAT2) && (updateArea.hsb4[2] > minBRI2) &&(updateArea.hsb4[2] < maxBRI2)|| ((updateArea.hsb4[0] > minHUE3) && (updateArea.hsb4[0] < maxHUE3) && (updateArea.hsb4[1] > minSAT3) &&(updateArea.hsb4[1] < maxSAT3) && (updateArea.hsb4[2] > minBRI3) &&(updateArea.hsb4[2] < maxBRI3)))){
                 mouse.mouseClick();
-                System.out.print("\n Shooting!");
             }else{
                 System.out.print("\n Waiting!");
             }

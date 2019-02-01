@@ -17,7 +17,6 @@ public class updateArea extends Thread {
 
            // Point relPos = new Point(RobotTest.mouse.getRelPosition());
             Point relPos = new Point(939, 539);
-//            RobotTest.Gui.xy.setText(relPos.x + ", " + relPos.y);
             hsb = GlazMain.colorfinder.getRelPixelColor(relPos);
             hsb2 = GlazMain.colorfinder.getRelPixelColor(new Point(relPos.x - 2, relPos.y));
             hsb3 = GlazMain.colorfinder.getRelPixelColor(new Point(relPos.x + 2, relPos.y));
